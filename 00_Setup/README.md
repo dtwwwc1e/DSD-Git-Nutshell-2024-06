@@ -1,11 +1,11 @@
-# 6 Jun 2023, 10:00pm to 2:00pm
+# DSD Git Version Control training courses
 
 ## Timetable ##
 ### DSD: In a Nutshell: Git version control ###
-10:00am to 10:45am
+4th June 2024. 1:00pm to 2:00pm
 
 ### DSD: Dive into Git version control ###
-11:00am to 2:00pm
+5th June 2024. 10:00am to 1:00pm
 
 
 ## Setup
