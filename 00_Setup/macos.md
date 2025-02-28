@@ -28,43 +28,7 @@ to get VS Code on your mac.
    ```bash
    code <filename>
    ```
-## Set up your ssh keys
+## GitHub.com and setting up your ssh keys
 
-To use git on our [gitlab instance](https://git.automation.ucl.ac.uk/), you will
-need to set up ssh keys.
+“Git” and “Github.com” are not the same thing. You will need your own account on github.com, In addition, you will also need to set up SSH key pair to fully integrate between Git and github.com. Setting up the SSH key pair can throw up problems, but following instructions as closely as possible is high chance this is done in a short time: [https://swcarpentry.github.io/git-novice/07-github.html#ssh-background-and-setup](https://swcarpentry.github.io/git-novice/07-github.html#ssh-background-and-setup), section 3.
 
-1. Open the terminal
-1. Run the following command:
-   ```bash
-   ssh-keygen -t rsa -b 4096 -C "your_email@ucl.ac.uk"
-   ```
-   - Click `[Enter]` when asked for where to save the key, unless you know what
-     you are doing.
-   - Type a secure passphrase when asked for it. You won't see any character
-     being typed, but they are! 
-   - Type your passphrase again.
-1. Add the ssh-keys to your agent
-   - Type
-   ```bash
-   eval "$(ssh-agent -s)"
-   ssh-add ~/.ssh/id_rsa
-   ```
-1. Add the public key to gitlab
-   - Login into our [gitlab instance](https://git.automation.ucl.ac.uk/)
-   - Click on your avatar on the top right corner and select 'Settings'
-   - Click on 'SSH Keys' on the left bar.
-   - On the git bash execute the following:
-   ```bash
-   pbcopy < ~/.ssh/id_rsa.pub
-   ```
-   - Back on gitlab, click `[⌘]` + `[v]` to paste the key in the key form.
-   - Change the Title by something meaningful if you plan to add more keys. (You
-     won't be able to edit it afterwards, but you can deleted and add it again.)
-   - Test that the key was added properly:
-   ```bash
-   ssh -T git@git.automation.ucl.ac.uk
-   ```
-   confirm writing `yes` that you want to continue. You should get a messsage like:
-   ```
-   Welcome to GitLab, @<username>!
-   ```
