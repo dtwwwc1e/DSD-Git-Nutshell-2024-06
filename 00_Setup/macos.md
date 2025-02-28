@@ -13,13 +13,12 @@ Maverics (10.9) or above this is all you need to do:
    If you are given a version then that's it, if not you should get a pop-up window
    asking you to install XCode.
    - Click on 'Install' and that's it.
-## Text editor - VSCode
+## Optional: Text editor - VSCode
 
-[nano](https://www.nano-editor.org/) and [vim](https://www.vim.org/) should be already
-available on your Mac. However,
-we will also use [VS Code](https://code.visualstudio.com/). Follow these instructions
-to get VS Code on your mac.
+The installation of Git bash will provide you with
+[nano](https://www.nano-editor.org/). Some of you are familiar with the vi / vim editor and the VS Code application. Where there is time the trainer can assist participants with setting up and use, but Git bash is used for the training.
 
+**Optional**
 1. Download [VS Code](https://code.visualstudio.com/docs/?dv=osx)
 1. Double-click on the downloaded archive to open
    - Drag VSCode.app to the Applications folder.
