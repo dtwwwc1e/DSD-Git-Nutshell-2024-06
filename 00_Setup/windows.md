@@ -38,13 +38,12 @@ instructions below:
 
 This will provide you with both Git and Bash in the Git Bash program.
 
-## Text editor - VSCode
+## Optional: Text editor - VSCode
 
 The installation of Git bash will provide you with
-[nano](https://www.nano-editor.org/) and [vim](https://www.vim.org/). However,
-we will also use [VS Code](https://code.visualstudio.com/). Follow these instructions
-to get VS Code integrated with gitbash.
+[nano](https://www.nano-editor.org/). Some of you are familiar with the vi / vim editor and the VS Code application. Where there is time the trainer can assist participants with setting up and use, but Git bash is used for the training.
 
+**Optional**
 1. Download [VS Code](https://code.visualstudio.com/docs/?dv=win64user)
 1. Run the installer and follow the steps below:
    - Click on "Next" five times. You don't need to change anything in the
